@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Ahram Lee</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="bg-primary text-white text-center py-5">
+    <div class="container">
+      <h1>Welcome to My Portfolio</h1>
+      <p class="lead">Showcasing my skills, projects, and achievements</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">About Me</h2>
+      <div class="row align-items-center">
+        <div class="col-md-4 text-center">
+          <img src="./AR.png" alt="Profile Picture" class="img-fluid rounded-circle">
+        </div>
+        <div class="col-md-8">
+          <p>Hello! I'm <strong>Ahram Lee</strong>, a passionate software developer eager to create impactful applications.<br>
+            I specialize in web development, programming, and problem-solving.<br>
+            Currently, I am studying <strong>Computer Programming</strong> at <strong>Seneca College</strong>, where I am honing my technical skills and learning to apply them to real-world challenges.<br>
+            I am always excited to learn new technologies and improve my skills to make a difference in the tech industry.
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Technical Skills Section-->
+  <section id="skills" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Technical Skills</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">Database</h5>
+              <hr>
+              <p class="card-text">SQL, Oracle</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">Programming Languages</h5>
+              <hr>
+              <p class="card-text">C/C++, Java, Python</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">Web Development</h5>
+              <hr>
+              <p class="card-text">HTML, CSS, JavaScript, React Native, NodeJS</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">Operating Systems</h5>
+              <hr>
+              <p class="card-text">Windows, MAC, Linux, UNIX</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">Software Tools</h5>
+              <hr>
+              <p class="card-text">Visual Studio, VS Code, Figma, Microsoft Office</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">Etc</h5>
+              <hr>
+              <p class="card-text">Git, Jira</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Projects Section -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">My Projects</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">K-pop Music App</h5>
+              <p class="card-text">A dynamic music app showcasing K-pop artists and their songs with interactive song cards, forms for newsletter sign-up and artist requests, and a responsive design.</p>
+              <a href="https://github.com/al0201/Music_app" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Personal Portfolio</h5>
+              <p class="card-text">A personal portfolio website built with Bootstrap, featuring a responsive design to showcase my programming journey, projects, skills, and experience in software development</p>
+              <a href="#" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Delivery Route Optimization System</h5>
+              <p class="card-text">Developed a system to optimize delivery routes for a local company, ensuring efficient truck paths. Git and Jira were used for collaboration, issue tracking, and project management.</p>
+              <a href="https://github.com/al0201/Seneca_CPA_2nd/tree/main/SFT221/assignment-3/src" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Me</h2>
+      <div class="text-center">
+        <a href="https://github.com/al0201" class="me-3"><i class="bi bi-github fs-3"></i></a>
+        <a href="https://www.linkedin.com/in/ahram-lee" class="me-3"><i class="bi bi-linkedin fs-3"></i></a>
+        <a href="mailto:alee239@myseneca.ca"><i class="bi bi-envelope fs-3"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p>&copy; 2025 Ahram Lee. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
