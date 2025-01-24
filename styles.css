@@ -13,16 +13,10 @@
     margin-bottom: 4rem; /* Experience 섹션 아래에 더 큰 간격 추가 */
   }
 
-  #experience .border {
-    background-color: #f0f8ff; /* 카드 배경색 */
-    color: #333; /* 텍스트 색상 */
-    border: 1px solid #87ceeb; /* 테두리 색상 */
-}
 
 /* 호버 효과 추가 */
 #experience .border:hover {
     background-color: #e6f7ff; /* 호버 시 배경색 */
-    border-color: #4682b4; /* 호버 시 테두리 색상 */
     transform: scale(1.05); /* 확대 효과 */
     transition: 0.3s ease; /* 부드러운 전환 효과 */
 }
