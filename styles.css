@@ -1,0 +1,57 @@
+.intro-text {
+     /* 가운데 정렬 */
+    font-size: 1.5rem;    /* 글씨 크기 */
+    font-weight: bold;  /* 글씨 굵기 */
+    color: #22b24c;        /* 글씨 색상 */
+  }
+
+  section {
+    padding: 2rem 0; /* 내부 여백 */
+}
+
+  #education {
+    margin-bottom: 4rem; /* Experience 섹션 아래에 더 큰 간격 추가 */
+  }
+
+  #experience .border {
+    background-color: #f0f8ff; /* 카드 배경색 */
+    color: #333; /* 텍스트 색상 */
+    border: 1px solid #87ceeb; /* 테두리 색상 */
+}
+
+/* 호버 효과 추가 */
+#experience .border:hover {
+    background-color: #e6f7ff; /* 호버 시 배경색 */
+    border-color: #4682b4; /* 호버 시 테두리 색상 */
+    transform: scale(1.05); /* 확대 효과 */
+    transition: 0.3s ease; /* 부드러운 전환 효과 */
+}
+
+#experience {
+  margin-bottom: 2rem; /* Experience 섹션 아래에 더 큰 간격 추가 */
+}
+
+  #skills .card {
+    background-color: #dbf5d0; /* 원하는 배경색으로 변경 */
+    color: #333; /* 텍스트 색상 */
+    border: 1px solid #ccc; /* 테두리 색상 */
+}
+
+/* 카드에 호버 효과 추가 */
+#skills .card:hover {
+    background-color: #fcfcf9; /* 호버 시 배경색 */
+    border-color: #22b24c; /* 호버 시 테두리 색상 */
+    transform: scale(1.05); /* 살짝 확대 효과 */
+    transition: 0.3s ease; /* 부드러운 전환 효과 */
+}
+
+#skills {
+  margin-bottom: 6rem; /* Skills 섹션 아래 간격 */
+}
+
+#projects .card {
+  background-color: #f8f7d0; /* 원하는 배경색으로 변경 */
+  color: #333; /* 텍스트 색상 */
+  border: 1px solid #ccc; /* 테두리 색상 */
+}
+
